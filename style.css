@@ -2155,6 +2155,7 @@ img {
   }
 
   .hero-badge {
+    display: inline-flex;
     margin-left: auto;
     margin-right: auto;
   }
@@ -2231,9 +2232,22 @@ img {
   }
 
   .top-announcement {
-    display: block;
+    display: flex;
+    align-items: center;
+    min-height: 36px;
     font-size: 0.8rem;
-    padding: 0.45rem 0;
+    padding: 0.5rem 0;
+    overflow: hidden;
+  }
+
+  .marquee-track {
+    display: flex;
+    animation: marqueeScroll 20s linear infinite;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    margin-bottom: 1.5rem;
   }
 
   .hamburger-btn {
