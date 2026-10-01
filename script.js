@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
    ========================================================================== */
 function initWhatsAppLinks() {
   // Read number from config.js → set by Netlify env var at build time
-  const num = (window.SITE_CONFIG && window.SITE_CONFIG.whatsappNumber) || '';
+  const num = (window.SITE_CONFIG && window.SITE_CONFIG.whatsappNumber) || '971529863171';
 
   const ctaLink      = document.getElementById('ctaWhatsAppLink');
   const floatingLink = document.getElementById('floatingWhatsAppLink');
