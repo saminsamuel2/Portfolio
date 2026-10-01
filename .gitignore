@@ -1,0 +1,9 @@
+# ── Secure: never push private config to GitHub ──
+config.js
+
+# ── OS & editor junk ──
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.log

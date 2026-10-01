@@ -1,0 +1,9 @@
+[build]
+  # Netlify runs this command before deploying.
+  # It reads WHATSAPP_NUMBER from Netlify Environment Variables
+  # and creates config.js on the server — your number never touches GitHub.
+  command = "echo \"window.SITE_CONFIG={whatsappNumber:'${WHATSAPP_NUMBER}'};\" > config.js"
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "18"
