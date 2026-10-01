@@ -2253,14 +2253,20 @@ img {
 
   .hero-badge {
     display: inline-flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     font-size: 0.72rem;
-    padding: 0.35rem 0.9rem;
+    padding: 0.4rem 1rem;
     margin-bottom: 1.5rem;
     white-space: normal;
     text-align: center;
     max-width: 90%;
+    gap: 0.4rem;
+  }
+
+  .hero-badge i {
+    margin-top: 0.1rem;
+    flex-shrink: 0;
   }
 
   .hamburger-btn {
