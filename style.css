@@ -2154,6 +2154,11 @@ img {
     gap: 3rem;
   }
 
+  .hero-badge {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .hero-title {
     font-size: 2.6rem;
   }
