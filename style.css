@@ -1367,6 +1367,92 @@ img {
   color: var(--color-text-muted);
 }
 
+/* ==========================================================================
+   Trinity College London Exam Preparation Pricing
+   ========================================================================== */
+.trinity-pricing-block {
+  margin-top: 3.5rem;
+  margin-bottom: 4.5rem;
+  position: relative;
+}
+
+.trinity-pricing-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 2.5rem;
+}
+
+.trinity-pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-gold);
+  background: rgba(244, 207, 12, 0.14);
+  border: 1px solid rgba(244, 207, 12, 0.4);
+  padding: 0.35rem 1rem;
+  border-radius: var(--radius-pill);
+  margin-bottom: 0.75rem;
+}
+
+.trinity-pill-badge i {
+  color: var(--color-gold);
+}
+
+.trinity-pricing-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.trinity-pricing-sub {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.trinity-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 920px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+.pricing-card.trinity-card {
+  border: 1.5px solid rgba(244, 207, 12, 0.45);
+  background: linear-gradient(180deg, rgba(244, 207, 12, 0.05) 0%, #ffffff 100%);
+}
+
+.pricing-card.trinity-card.advanced-trinity-card {
+  border: 2px solid var(--color-primary-dark);
+  background: linear-gradient(180deg, rgba(71, 94, 86, 0.06) 0%, #ffffff 100%);
+  box-shadow: var(--shadow-md);
+}
+
+.plan-level-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #8c7300;
+  background: var(--color-gold-light);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-pill);
+  margin-bottom: 0.75rem;
+}
+
+.advanced-trinity-card .plan-level-tag {
+  color: var(--color-primary-dark);
+  background: rgba(71, 94, 86, 0.15);
+}
+
 /* Special Featured Course Card */
 .special-course-card {
   background: var(--gradient-dark-card);
@@ -2223,6 +2309,13 @@ img {
     margin-right: auto;
   }
 
+  .trinity-pricing-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .special-course-card {
     padding: 3rem 2.25rem;
   }
@@ -2546,6 +2639,26 @@ img {
 
   .plan-features li {
     font-size: 0.88rem;
+  }
+
+  /* Trinity College London Exam Preparation */
+  .trinity-pricing-block {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .trinity-pricing-title {
+    font-size: 1.6rem;
+  }
+
+  .trinity-pricing-sub {
+    font-size: 0.92rem;
+  }
+
+  .trinity-pricing-grid {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    gap: 1.5rem;
   }
 
   /* Special Featured 6-Month Keyboard Course */
@@ -2900,6 +3013,10 @@ img {
   .about-main-text::before {
     left: 0.95rem;
     right: 0.95rem;
+  }
+
+  .trinity-pricing-title {
+    font-size: 1.35rem;
   }
 
   /* Special Featured 6-Month Keyboard Course */
